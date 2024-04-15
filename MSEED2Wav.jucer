@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="pvqagN" name="MSEED2Wav" projectType="consoleapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="ZItJAu" name="MSEED2Wav">
+    <GROUP id="{DA73F4DF-E25A-ADEB-18B7-25042A4E057E}" name="Source">
+      <GROUP id="{28B5DC3B-D230-45DC-7923-1DEA55BAD7C5}" name="libmseed">
+        <FILE id="ea66m7" name="crc32c.c" compile="1" resource="0" file="Source/libmseed/crc32c.c"/>
+        <FILE id="PwCLDr" name="extraheaders.c" compile="1" resource="0" file="Source/libmseed/extraheaders.c"/>
+        <FILE id="fqWyGM" name="extraheaders.h" compile="0" resource="0" file="Source/libmseed/extraheaders.h"/>
+        <FILE id="nTQa2O" name="fileutils.c" compile="1" resource="0" file="Source/libmseed/fileutils.c"/>
+        <FILE id="q1oTsl" name="genutils.c" compile="1" resource="0" file="Source/libmseed/genutils.c"/>
+        <FILE id="i0IcBw" name="gmtime64.c" compile="1" resource="0" file="Source/libmseed/gmtime64.c"/>
+        <FILE id="z2PC24" name="gmtime64.h" compile="0" resource="0" file="Source/libmseed/gmtime64.h"/>
+        <FILE id="eckvqy" name="logging.c" compile="1" resource="0" file="Source/libmseed/logging.c"/>
+        <FILE id="IOce1g" name="lookup.c" compile="1" resource="0" file="Source/libmseed/lookup.c"/>
+        <FILE id="PmGiPb" name="mseedformat.h" compile="0" resource="0" file="Source/libmseed/mseedformat.h"/>
+        <FILE id="RXYnBC" name="msio.c" compile="1" resource="0" file="Source/libmseed/msio.c"/>
+        <FILE id="SJ4fXI" name="msio.h" compile="0" resource="0" file="Source/libmseed/msio.h"/>
+        <FILE id="DpAxWz" name="msrutils.c" compile="1" resource="0" file="Source/libmseed/msrutils.c"/>
+        <FILE id="BvYbEV" name="pack.c" compile="1" resource="0" file="Source/libmseed/pack.c"/>
+        <FILE id="K3Fw7d" name="packdata.c" compile="1" resource="0" file="Source/libmseed/packdata.c"/>
+        <FILE id="VLGiS3" name="packdata.h" compile="0" resource="0" file="Source/libmseed/packdata.h"/>
+        <FILE id="eoLm6w" name="parseutils.c" compile="1" resource="0" file="Source/libmseed/parseutils.c"/>
+        <FILE id="O7kSdh" name="selection.c" compile="1" resource="0" file="Source/libmseed/selection.c"/>
+        <FILE id="wrXY9u" name="tracelist.c" compile="1" resource="0" file="Source/libmseed/tracelist.c"/>
+        <FILE id="dvXsJo" name="unpack.c" compile="1" resource="0" file="Source/libmseed/unpack.c"/>
+        <FILE id="reyb72" name="unpack.h" compile="0" resource="0" file="Source/libmseed/unpack.h"/>
+        <FILE id="TelgYH" name="unpackdata.c" compile="1" resource="0" file="Source/libmseed/unpackdata.c"/>
+        <FILE id="sGDs77" name="unpackdata.h" compile="0" resource="0" file="Source/libmseed/unpackdata.h"/>
+        <FILE id="rBgg2q" name="yyjson.c" compile="1" resource="0" file="Source/libmseed/yyjson.c"/>
+        <FILE id="WKpsVM" name="yyjson.h" compile="0" resource="0" file="Source/libmseed/yyjson.h"/>
+      </GROUP>
+      <FILE id="Yn85QA" name="libmseed.h" compile="0" resource="0" file="Source/libmseed/libmseed.h"/>
+      <FILE id="FJtazP" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="MSEED2Wav"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="MSEED2Wav"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../SDKs/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../SDKs/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../SDKs/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../SDKs/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../SDKs/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../SDKs/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../SDKs/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../SDKs/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../SDKs/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../SDKs/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../SDKs/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
