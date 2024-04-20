@@ -2,3 +2,6 @@ Builds/MacOSX/MSEED2Wav.xcodeproj/project.xcworkspace/xcuserdata/dhilowitz.xcuse
 Builds/MacOSX/build
 Builds/MacOSX/MSEED2Wav.xcodeproj/xcshareddata
 Samples
+Builds/VisualStudio2022/.vs
+Builds/VisualStudio2022/Win32
+Builds/VisualStudio2022/x64
